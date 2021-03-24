@@ -117,8 +117,16 @@ header {
   color: var(--highlight-color);
 }
 
-.nav-list .item {
+.nav-list .item:not(:last-child) {
   margin-right: 50px;
+}
+.icon-link {
+  justify-content: center;
+}
+
+.icon-envelope {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .contacts-list {
@@ -149,6 +157,7 @@ header {
 .contacts:hover,
 .contacts:focus {
   color: var(--highlight-color);
+  fill: var(--highlight-color);
 }
 
 .contacts {

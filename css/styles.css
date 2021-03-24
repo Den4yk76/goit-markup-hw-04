@@ -120,11 +120,9 @@ header {
 .nav-list .item:not(:last-child) {
   margin-right: 50px;
 }
-.icon-link {
-  justify-content: center;
-}
 
-.icon-envelope {
+.icon-envelope,
+.icon-smartphone {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -173,7 +171,8 @@ header {
 }
 
 .header-contacts-text {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 32px 0 32px 0;
   font-weight: 500;
 }

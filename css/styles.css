@@ -444,6 +444,8 @@ li {
 
 footer {
   background-color: var(--back-dark-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer .logo {
@@ -476,20 +478,19 @@ footer li:last-child {
 
 .position {
   display: flex;
+  align-items: baseline;
 }
 
-.adress {
-  margin-right: 70px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+.address {
+margin-right: 70px;
 }
 
-.social {
+/* .social {
   display: inline-block;
   padding-top: 72px;
   padding-bottom: 100px;
 
-}
+} */
 
 .social>strong {
   display: inline-flex;
